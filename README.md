@@ -203,14 +203,6 @@ console.log(remapped);
 // };
 ```
 
-### Options
-
-#### excludeContent
-
-By default, `excludeContent` is `false`. Passing `{ excludeContent: true }` will exclude the
-`sourcesContent` field from the returned sourcemap. This is mainly useful when you want to reduce
-the size out the sourcemap.
-
 #### decodedMappings
 
 By default, `decodedMappings` is `false`. Passing `{ decodedMappings: true }` will leave the
