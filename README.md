@@ -89,14 +89,6 @@ const remapped = remapping(
   }
 );
 
-console.log(remapped);
-// {
-//   file: 'transpiled.min.js',
-//   mappings: 'AAEE',
-//   sources: ['helloworld.js'],
-//   version: 3,
-// };
-```
 
 In this example, `loader` will be called twice:
 
