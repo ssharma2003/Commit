@@ -7,8 +7,8 @@ function App() {
 
   return (
     <>
-      <div>
-        hy
+      <div className="bg-slate-900 text-4xl">
+          HY
       </div>
     </>
   )
